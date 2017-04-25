@@ -1,0 +1,69 @@
+# Created on 2017-04-24T16:18:34.761
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.lang.Thread.run(Unknown Source)
+
+
+# Created on 2017-04-24T16:18:42.760
+Unexpected IOException with stream: Apr 24, 2017 4:18:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+
+
+# Created on 2017-04-24T16:18:45.255
+Unexpected IOException: 6,1,test.AutomationTest,automationScript(test.AutomationTest),null,null,null
+
+
+# Created on 2017-04-24T16:18:49.101
+Unexpected IOException with stream: PASSED: automationScript("Chrome")
+
+# Created on 2017-04-24T16:18:49.106
+Unexpected IOException with stream: 
+
+
+# Created on 2017-04-24T16:18:49.112
+Unexpected IOException with stream: 
+===============================================
+    Mobile Test
+    Tests run: 1, Failures: 0, Skips: 0
+===============================================
+
+
+# Created on 2017-04-24T16:18:49.116
+Unexpected IOException with stream: 
+
+
+# Created on 2017-04-24T16:18:50.528
+Unexpected IOException: 8,1,test.AutomationTest,automationScript(test.AutomationTest),null,Failed to execute command webpage.element find: Authorization failed for device: 0715F7752C4B3038\000ACommand duration or timeout: 4.21 seconds\000ABuild info: version: '3.3.1'\002C revision: '5234b325d5'\002C time: '2017-03-10 09:10:29 +0000'\000ASystem info: host: 'ZENLAPTOP802'\002C ip: '192.168.231.2'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_121'\000ADriver info: org.openqa.selenium.remote.RemoteWebDriver\000ACapabilities [{reportPdfUrl=https://partners.reporting-01.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=davidd@perfectomobile.com_CIAutomationDemo_17-04-24_20_18_22_25542&timestamp=1493065102502\002C windTunnelPersona=Georgia\002C deviceName=0715F7752C4B3038\002C platform=ANY\002C password=\002C automationName=Appium\002C host=partners.perfectomobile.com\002C singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:CI Automation Demo/170424/CIAutomationDemo_17-04-24_20_18_22_25542.xml&ownerId=davidd@perfectomobile.com&sharingCode=da42b802-0db2-4260-917d-145ebfac1c60\002C browserName=MobileOS\002C takesScreenshot=true\002C javascriptEnabled=true\002C rotatable=true\002C testGridReportUrl=https://partners.reporting-01.perfectomobile.com?externalId[0]=davidd@perfectomobile.com_CIAutomationDemo_17-04-24_20_18_22_25542&timestamp=1493065102502\002C entityType=remote_web_driver\002C offlineToken=\002C version=\002C serverConnector=\002C executionId=davidd@perfectomobile.com_CIAutomationDemo_17-04-24_20_18_22_25542\002C webdriver.remote.sessionid=6408adc5-5fdc-48e2-a3c9-1e43317dc4b9\002C locationContextEnabled=true\002C scriptName=CI Automation Demo\002C location=NA-US.*\002C reportKey=PRIVATE:CI Automation Demo/170424/CIAutomationDemo_17-04-24_20_18_22_25542.xml\002C windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:CI Automation Demo/170424/CIAutomationDemo_17-04-24_20_18_22_25542.xml&ownerId=davidd@perfectomobile.com&sharingCode=da42b802-0db2-4260-917d-145ebfac1c60\002C user=\002C cssSelectorsEnabled=true}]\000ASession ID: 6408adc5-5fdc-48e2-a3c9-1e43317dc4b9\000A*** Element info: {Using=id\002C value=Origin},null,Failed to execute command webpage.element find: Authorization failed for device: 0715F7752C4B3038\000ACommand duration or timeout: 4.21 seconds\000ABuild info: version: '3.3.1'\002C revision: '5234b325d5'\002C time: '2017-03-10 09:10:29 +0000'\000ASystem info: host: 'ZENLAPTOP802'\002C ip: '192.168.231.2'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_121'\000ADriver info: org.openqa.selenium.remote.RemoteWebDriver\000ACapabilities [{reportPdfUrl=https://partners.reporting-01.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=davidd@perfectomobile.com_CIAutomationDemo_17-04-24_20_18_22_25542&timestamp=1493065102502\002C windTunnelPersona=Georgia\002C deviceName=0715F7752C4B3038\002C platform=ANY\002C password=\002C automationName=Appium\002C host=partners.perfectomobile.com\002C singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:CI Automation Demo/170424/CIAutomationDemo_17-04-24_20_18_22_25542.xml&ownerId=davidd@perfectomobile.com&sharingCode=da42b802-0db2-4260-917d-145ebfac1c60\002C browserName=MobileOS\002C takesScreenshot=true\002C javascriptEnabled=true\002C rotatable=true\002C testGridReportUrl=https://partners.reporting-01.perfectomobile.com?externalId[0]=davidd@perfectomobile.com_CIAutomationDemo_17-04-24_20_18_22_25542&timestamp=1493065102502\002C entityType=remote_web_driver\002C offlineToken=\002C version=\002C serverConnector=\002C executionId=davidd@perfectomobile.com_CIAutomationDemo_17-04-24_20_18_22_25542\002C webdriver.remote.sessionid=6408adc5-5fdc-48e2-a3c9-1e43317dc4b9\002C locationContextEnabled=true\002C scriptName=CI Automation Demo\002C location=NA-US.*\002C reportKey=PRIVATE:CI Automation Demo/170424/CIAutomationDemo_17-04-24_20_18_22_25542.xml\002C windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:CI Automation Demo/170424/CIAutomationDemo_17-04-24_20_18_22_25542.xml&ownerId=davidd@perfectomobile.com&sharingCode=da42b802-0db2-4260-917d-145ebfac1c60\002C user=\002C cssSelectorsEnabled=true}]\000ASession ID: 6408adc5-5fdc-48e2-a3c9-1e43317dc4b9\000A*** Element info: {Using=id\002C value=Origin},AutomationTest.automationScript:47 \00BB WebDriver Failed to execute command webpa...,org.openqa.selenium.WebDriverException: \000AFailed to execute command webpage.element find: Authorization failed for device: 0715F7752C4B3038\000ACommand duration or timeout: 4.21 seconds\000ABuild info: version: '3.3.1'\002C revision: '5234b325d5'\002C time: '2017-03-10 09:10:29 +0000'\000ASystem info: host: 'ZENLAPTOP802'\002C ip: '192.168.231.2'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_121'\000ADriver info: org.openqa.selenium.remote.RemoteWebDriver\000ACapabilities [{reportPdfUrl=https://partners.reporting-01.perfectomobile.com/export/api/v1/test-executions/pdf?externalId[0]=davidd@perfectomobile.com_CIAutomationDemo_17-04-24_20_18_22_25542&timestamp=1493065102502\002C windTunnelPersona=Georgia\002C deviceName=0715F7752C4B3038\002C platform=ANY\002C password=\002C automationName=Appium\002C host=partners.perfectomobile.com\002C singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:CI Automation Demo/170424/CIAutomationDemo_17-04-24_20_18_22_25542.xml&ownerId=davidd@perfectomobile.com&sharingCode=da42b802-0db2-4260-917d-145ebfac1c60\002C browserName=MobileOS\002C takesScreenshot=true\002C javascriptEnabled=true\002C rotatable=true\002C testGridReportUrl=https://partners.reporting-01.perfectomobile.com?externalId[0]=davidd@perfectomobile.com_CIAutomationDemo_17-04-24_20_18_22_25542&timestamp=1493065102502\002C entityType=remote_web_driver\002C offlineToken=\002C version=\002C serverConnector=\002C executionId=davidd@perfectomobile.com_CIAutomationDemo_17-04-24_20_18_22_25542\002C webdriver.remote.sessionid=6408adc5-5fdc-48e2-a3c9-1e43317dc4b9\002C locationContextEnabled=true\002C scriptName=CI Automation Demo\002C location=NA-US.*\002C reportKey=PRIVATE:CI Automation Demo/170424/CIAutomationDemo_17-04-24_20_18_22_25542.xml\002C windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:CI Automation Demo/170424/CIAutomationDemo_17-04-24_20_18_22_25542.xml&ownerId=davidd@perfectomobile.com&sharingCode=da42b802-0db2-4260-917d-145ebfac1c60\002C user=\002C cssSelectorsEnabled=true}]\000ASession ID: 6408adc5-5fdc-48e2-a3c9-1e43317dc4b9\000A*** Element info: {Using=id\002C value=Origin}\000A\0009at test.AutomationTest.automationScript(AutomationTest.java:47)\000ACaused by: java.lang.RuntimeException: Failed to execute command webpage.element find: Authorization failed for device: 0715F7752C4B3038\000A
+
+
+# Created on 2017-04-24T16:18:51.012
+Unexpected IOException with stream: [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@3ffc5af1: 14 ms
+
+
+# Created on 2017-04-24T16:18:51.076
+Unexpected IOException with stream: [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@27efef64: 57 ms
+
+
+# Created on 2017-04-24T16:18:51.098
+Unexpected IOException with stream: [TestNG] Time taken by org.testng.reporters.EmailableReporter2@5c3bd550: 14 ms
+
+
+# Created on 2017-04-24T16:18:51.180
+Unexpected IOException with stream: [TestNG] Time taken by org.testng.reporters.jq.Main@cb644e: 75 ms
+
+
+# Created on 2017-04-24T16:18:51.200
+Unexpected IOException with stream: [TestNG] Time taken by org.testng.reporters.XMLReporter@5702b3b1: 11 ms
+
+
+# Created on 2017-04-24T16:18:51.222
+Unexpected IOException with stream: [TestNG] Time taken by [FailedReporter passed=0 failed=0 skipped=0]: 11 ms
+
+
+# Created on 2017-04-24T16:18:51.230
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

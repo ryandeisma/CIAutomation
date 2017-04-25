@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Default suite]" parallel="tests">
+  <test name="Mobile Test(failed)" parallel="tests">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="test.AutomationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="automationScript" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test.AutomationTest -->
+    </classes>
+  </test> <!-- Mobile Test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

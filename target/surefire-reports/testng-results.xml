@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="77909" started-at="2017-04-25T15:56:49Z" finished-at="2017-04-25T15:58:07Z">
+    <groups>
+    </groups>
+    <test name="Mobile Test" duration-ms="26134" started-at="2017-04-25T15:56:49Z" finished-at="2017-04-25T15:57:15Z">
+      <class name="test.AutomationTest">
+        <test-method status="PASS" signature="automationScript(java.lang.String)[pri:0, instance:test.AutomationTest@724af044]" name="automationScript" duration-ms="24433" started-at="2017-04-25T11:56:49Z" finished-at="2017-04-25T11:57:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automationScript -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.AutomationTest@724af044]" name="tearDown" is-config="true" duration-ms="1679" started-at="2017-04-25T11:57:14Z" finished-at="2017-04-25T11:57:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.AutomationTest -->
+    </test> <!-- Mobile Test -->
+    <test name="Browser Test" duration-ms="77909" started-at="2017-04-25T15:56:49Z" finished-at="2017-04-25T15:58:07Z">
+      <class name="test.AutomationTest">
+        <test-method status="PASS" signature="automationScript(java.lang.String)[pri:0, instance:test.AutomationTest@58651fd0]" name="automationScript" duration-ms="57445" started-at="2017-04-25T11:56:49Z" finished-at="2017-04-25T11:57:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automationScript -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.AutomationTest@58651fd0]" name="tearDown" is-config="true" duration-ms="20444" started-at="2017-04-25T11:57:47Z" finished-at="2017-04-25T11:58:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.AutomationTest -->
+    </test> <!-- Browser Test -->
+  </suite> <!-- Default suite -->
+</testng-results>
