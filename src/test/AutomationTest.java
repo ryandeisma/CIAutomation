@@ -42,6 +42,7 @@ public class AutomationTest {
 	
 		System.out.println("Start test");
 		driverSetup(browser);
+		System.out.println(browser);
 		home.navigateSearchEngine(driver, "https://www.google.com/");
 		home.navigateHome(driver, url);
 		home.enterCities(driver, firstFrom, firstEnd);
