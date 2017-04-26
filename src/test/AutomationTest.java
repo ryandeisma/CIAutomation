@@ -41,7 +41,6 @@ public class AutomationTest {
 	public void automationScript(String browser) throws IOException{
 	
 		System.out.println("Start test");
-		System.out.println(browser);
 		driverSetup(browser);
 		home.navigateSearchEngine(driver, "https://www.google.com/");
 		home.navigateHome(driver, url);
