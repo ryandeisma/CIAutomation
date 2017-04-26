@@ -19,6 +19,7 @@ public class ResultsPage extends BasePage{
 		WebElement edit = null;
 		if (browser.equals("OS")){
 			edit = staleProtect(driver, editMobileSearch);
+			System.out.println("Used Mobile Element");
 		}
 		else{
 			edit = staleProtect(driver, editSearch);
