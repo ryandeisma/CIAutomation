@@ -7,6 +7,7 @@
       <class name="test.AutomationTest">
         <methods>
           <include name="tearDown"/>
+          <include name="tearDown"/>
           <include name="automationScript" invocation-numbers="0"/>
         </methods>
       </class> <!-- test.AutomationTest -->
