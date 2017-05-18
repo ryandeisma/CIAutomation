@@ -21,7 +21,8 @@ public class SetUp {
         // add pre-defined persona and script name
         capabilities.setCapability(WindTunnelUtils.WIND_TUNNEL_PERSONA_CAPABILITY, WindTunnelUtils.GEORGIA);
         capabilities.setCapability("scriptName", "CI Automation Demo");     
-        capabilities.setCapability("deviceName","0715F7752C4B3038");
+        //capabilities.setCapability("deviceName","0715F7752C4B3038");
+        capabilities.setCapability("deviceName","52003C354EAE122D");
         RemoteWebDriver driver = null;
         
         // create driver
